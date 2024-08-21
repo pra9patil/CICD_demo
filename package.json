@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "build": "echo \"No build step defined\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "description": "A demo Node.js application for CI/CD pipeline",
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
